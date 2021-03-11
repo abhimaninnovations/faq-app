@@ -1,0 +1,31 @@
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+mat-accordion {
+margin-left: 16px;
+margin-right: 16px;
+}
+mat-expansion-panel{
+  margin-left: 16px;
+  margin-right: 16px;
+  border: 1px solid #8697e2;
+  margin-top: 8px;
+}
+mat-panel-description{
+  float: right;
+    display: block;
+}
+.ng_image_toggle{
+  float: right;
+    display: block;
+}
+mat-panel-title{
+  font-weight: 700;
+}
+
+p{
+  font-weight: 400;
+  font-family: sans-serif;
+  white-space: pre-line;
+
+}

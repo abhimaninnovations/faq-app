@@ -4,16 +4,7 @@
                 <div class="py-12 bg-indigo-100 lg:bg-white flex justify-center lg:justify-start lg:px-12">
                     <div class="cursor-pointer flex items-center">
                         <div>
-                            <svg class="w-10 text-indigo-500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 225 225" style="enable-background:new 0 0 225 225;" xml:space="preserve">
-                                <style type="text/css">
-                                    .st0{fill:none;stroke:currentColor;stroke-width:20;stroke-linecap:round;stroke-miterlimit:3;}
-                                </style>
-                                <g transform="matrix( 1, 0, 0, 1, 0,0) ">
-                                <g>
-                                <path id="Layer0_0_1_STROKES" class="st0" d="M173.8,151.5l13.6-13.6 M35.4,89.9l29.1-29 M89.4,34.9v1 M137.4,187.9l-0.6-0.4     M36.6,138.7l0.2-0.2 M56.1,169.1l27.7-27.6 M63.8,111.5l74.3-74.4 M87.1,188.1L187.6,87.6 M110.8,114.5l57.8-57.8"/>
-                                </g>
-                                </g>
-                            </svg>
+                           <img src="../assets/logo.png" width="50" height="50" alt="">
                         </div>
                         <div class="text-2xl text-indigo-800 ml-2 font-semibold">PollPe</div>
                     </div>
@@ -70,43 +61,40 @@
                     <div class="mx-auto text-center px-4 mt-12 text-2xl text-indigo-900 font-semibold">Frequently Asked Questions</div>
                     <dl class="mt-12 mx-auto max-w-screen-sm lg:max-w-screen-lg flex flex-col lg:flex-row lg:flex-wrap">
                         <div class="lg:w-1/2 content-center">
-                            <div class="question-and-answer select-none cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg text-sm group" *ngFor = "let f of faq">
-                                <dt class="question" (change)="show = !show" >
-                                    <div class="flex justify-between">
-                                        <div class="text-indigo-800 font-semibold">
-                                        {{f.question}}
-                                        </div>
-                                        <div>
-                                            <svg fill=currentColor class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
-                                                <g>
-                                                <polygon points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8"></polygon>
-                                                </g>
-                                                </g>
-                                            </svg>
-                                            <svg fill=currentColor class="question-chevron hidden group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
-                                                <g>
-                                                <polygon points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12"></polygon>
-                                                </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </dt>
-                                <dd *ngIf="show" class="answer hidden mt-2 leading-snug text-gray-700">
-                                   {{f.answer}}
-                                </dd>
-                            </div>
+                            <mat-accordion>
+                            <mat-expansion-panel hideToggle  *ngFor = "let f of faq">
+                              <mat-expansion-panel-header>
+                                <mat-panel-title>
+                                 {{ f.question}}
+                                </mat-panel-title>
+                                <mat-panel-description>
+                                  <div class="ng_image_toggle">
+                                    <svg fill=currentColor class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                        <g>
+                                        <polygon points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8"></polygon>
+                                        </g>
+                                        </g>
+                                    </svg>
+                                    <svg fill=currentColor class="question-chevron hidden group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                                        <g>
+                                        <polygon points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12"></polygon>
+                                        </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                </mat-panel-description>
+                              </mat-expansion-panel-header>
+                              <p>{{ f.answer }}</p>
+                            </mat-expansion-panel>
+                          </mat-accordion>
                         </div>
 
                     </dl>
                 </div>
             </div>
         </div>
-
-
-
 
 
 <router-outlet></router-outlet>
