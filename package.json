@@ -1,7 +1,6 @@
 {
   "name": "faq-page",
   "version": "0.0.0",
-  "baseHref": "/ng-test-deploy",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
