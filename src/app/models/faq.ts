@@ -10,8 +10,5 @@ var faq = [{
 {
   question: "Why can't I log in because of VPN usage?",
   answer: "The use of VPN is forbidden, because otherwise unsuitable polls for you would be displayed. For this reason a login with VPN is not possible. Disconnect your VPN connection in order to use the app."
-},
-{
-
 }
 ]

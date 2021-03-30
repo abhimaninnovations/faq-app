@@ -1,12 +1,12 @@
-
-        <div class="">
+<!--
+        <div class="navbar">
             <div class="">
                 <div class="py-12 bg-indigo-100 lg:bg-white flex justify-center lg:justify-start lg:px-12">
                     <div class="cursor-pointer flex items-center">
                         <div>
-                           <img src="https://raw.githubusercontent.com/abhimaninnovations/faq-app/master/src/assets/logo.png" width="50" height="50" alt="">
+                           <img src="data:image/png;base64,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" width="90" height="50" alt="">
                         </div>
-                        <div class="text-2xl text-indigo-800 ml-2 font-semibold">PollPe</div>
+                        <div class="text-2xl text-indigo-800 ml-2 font-semibold"></div>
                     </div>
                 </div>
             </div>
@@ -95,6 +95,91 @@
                 </div>
             </div>
         </div>
+      -->
 
+<div style="display: flex" id="app">
+  <div class="f9ulml6">
+    <div id="header_container" class="fddsvlq f6en88b" style="position: fixed">
+      <img
+        class="fc39scl"
+        src="data:image/png;base64,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"
+        width="90"
+        height="50"
+        alt=""
+      />
+
+      <!-- <div class="f8d3loz">
+        <div class="f1anllfv undefined f9zcoze f15a5vpn f1c7x5pa f1fjpkgc">
+          <div class="f1c7x5pa fnephdj">Login</div>
+        </div>
+      </div> -->
+    </div>
+    <div
+      class="fq6xrfw"
+      style="padding-top: 60px; background-color: transparent"
+    >
+      <div>
+        <div class="fcndgf6 f1r2e1o5">
+          <div class="ffc8rcx fcndgf6">
+            <div
+              class="fddsvlq feotlki filpoyj"
+              style="height: 64px; opacity: 1"
+            >
+              <div class="fhvkf9u">No new Notifications</div>
+
+
+            </div>
+
+            <div class="f1msoecq"></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="mx-auto text-center px-4 mt-12 text-2xl text-indigo-900 font-semibold" style="color: #718096;">Frequently Asked Questions</div>
+        <div class="">
+            <div class=" content-center">
+                <mat-accordion>
+                <mat-expansion-panel hideToggle  *ngFor = "let f of faq">
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                     {{ f.question}}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                      <div class="ng_image_toggle">
+                        <svg fill=currentColor class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                            <g>
+                            <polygon points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8"></polygon>
+                            </g>
+                            </g>
+                        </svg>
+                        <svg fill=currentColor class="question-chevron hidden group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                            <g>
+                            <polygon points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12"></polygon>
+                            </g>
+                            </g>
+                        </svg>
+                    </div>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <p>{{ f.answer }}</p>
+                </mat-expansion-panel>
+              </mat-accordion>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="f184inpc"></div>
+  <div class="fkg8f0c f11wsrxy">
+    <div class="f1ymdaz8 f11wsrxy">
+
+    </div>
+  </div>
+</div>
 
 <router-outlet></router-outlet>

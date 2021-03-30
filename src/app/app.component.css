@@ -1,3 +1,7 @@
+
+
+
+
 .mat-form-field + .mat-form-field {
   margin-left: 8px;
 }
@@ -8,12 +12,19 @@ margin-right: 16px;
 mat-expansion-panel{
   margin-left: 16px;
   margin-right: 16px;
-  border: 1px solid #8697e2;
+  border: 1px solid #2c2c2c;
   margin-top: 8px;
 }
 mat-panel-description{
   float: right;
     display: block;
+}
+mat-expansion-panel {
+  background: #30343e;
+  color: #fff;
+}
+mat-panel-title{
+color: #cbd5e0;
 }
 .ng_image_toggle{
   float: right;
@@ -28,4 +39,173 @@ p{
   font-family: sans-serif;
   white-space: pre-line;
 
+}
+.f9ulml6 {
+  background: #262A34;
+  max-width: 480px;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+}
+.f6en88b {
+  background: #262A34;
+  box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 6%);
+  height: 60px;
+  max-width: 480px;
+  padding: 0 10px;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.fddsvlq {
+  align-items: center;
+  display: flex;
+  color: #cbd5e0;
+}
+.f1mgyl9u {
+  position: relative;
+}
+.fc39scl {
+  overflow: hidden;
+  position: relative;
+}
+
+.f1mgyl9u {
+  position: relative;
+}
+.f1mgyl9u {
+  position: relative;
+}.f16aqz9z {
+  height: 29px;
+  width: 130px;
+}
+.fkg8f0c {
+  background: url(https://static.skillclash.com/peach/assets/img/global-bg-rays.svg);
+  background: #262A34;
+
+   background-size: cover;
+  bottom: 0;
+  left: 480px;
+  overflow: scroll;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 4;
+}
+.f8d3loz {
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  text-transform: uppercase;
+  top: 50%;
+  transform: translate(0,-50%);
+  width: 90px;
+}
+.fq6xrfw {
+  min-height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 60px;
+}
+.f184inpc {
+  background: #262A34;
+   bottom: 0;
+  left: 480px;
+  position: fixed;
+  top: 0;
+  width: 10px;
+  z-index: 5;
+}
+.f11wsrxy {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.f1ymdaz8 {
+  height: 100%;
+  left: 0;
+  min-width: 680px;
+  position: absolute;
+  width: 100%;
+}
+.f11wsrxy {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.f1lux8si {
+  bottom: 45%;
+  position: absolute;
+  width: 350px;
+  filter: blur(0px);
+}
+.f2c2s2g {
+  -webkit-filter: blur(5px);
+  -webkit-transition: 0.2s -webkit-filter linear;
+  filter: blur(5px);
+  transition: 0.2s filter linear;
+}
+.f1obfhao {
+  height: auto;
+  width: 330px;
+}
+.fr0p3ss {
+  bottom: 35%;
+  position: absolute;
+}
+.f7u3w47 {
+  bottom: 25%;
+  font-family: Roboto Condensed;
+  font-size: 3.8em;
+  font-weight: 400;
+  position: absolute;
+  text-transform: uppercase;
+}
+.f1r5tqmg {
+  bottom: 30px;
+  color: #2c2c2c;
+  font-size: 2.4em;
+  font-weight: 400;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+}
+.fxrgqpn {
+  background: #262A34;
+
+  width: 100%;
+}
+.ffwzbn2 {
+  bottom: 0;
+  left: 0;
+  max-width: 480px;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.f1r2e1o5 {
+  padding: 30px 20px 0 20px;
+}
+.ffc8rcx {
+  position: relative;
+  width: 100%;
+}
+
+.feotlki {
+  padding-left: 20px;
+}
+.filpoyj {
+  border: 1px solid #66686b;
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+}
+.fddsvlq {
+  align-items: center;
+  display: flex;
 }
